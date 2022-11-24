@@ -1,0 +1,92 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.maxtop {
+  height: 500px;
+  font-family: Outfit;
+}
+
+.mainbox {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 500px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image1 {
+  width: 250px;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.Equ {
+  margin-top: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(217, 17%, 44%);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.secondtop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innersecondtop {
+  display: flex;
+}
+
+.contentinnersecondtop {
+  margin-left: 5px;
+  color: hsl(217, 17%, 44%);
+  font-weight: 700;
+}
+
+.lastrow {
+  display: flex;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-top: 20px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.lastrowimg {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+.contentoflastrow {
+  color: hsl(217, 17%, 44%);
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+span {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.clock {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
